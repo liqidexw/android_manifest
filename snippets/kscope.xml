@@ -54,6 +54,8 @@
   <!-- external -->
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="kscope-gitlab" revision="master" clone-depth="1" />
   <project path="external/faceunlock" name="android_external_faceunlock" remote="kscope-gitlab" clone-depth="1" />
+  <project path="external/aac" name="android_external_aac" remote="kscope" />
+  <project path="external/angle" name="android_external_angle" remote="kscope" />
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="kscope" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="kscope" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="kscope" />
@@ -62,6 +64,7 @@
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="kscope" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="kscope" />
   <project path="external/expat" name="android_external_expat" remote="kscope" />
+  <project path="external/freetype" name="android_external_freetype" remote="kscope" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="kscope" />
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="kscope" />
   <project path="external/json-c" name="android_external_json-c" remote="kscope" />
@@ -74,6 +77,7 @@
   <!-- frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="kscope" />
   <project path="frameworks/base" name="android_frameworks_base" remote="kscope" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" remote="kscope" />
   <project path="frameworks/native" name="android_frameworks_native" remote="kscope" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="kscope" />
   <project path="frameworks/proto_logging" name="android_frameworks_proto_logging" remote="kscope" />
@@ -145,6 +149,7 @@
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="kscope" />
   <project path="packages/apps/KscopeSetupWizard" name="android_packages_apps_KscopeSetupWizard" remote="kscope" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="kscope" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="kscope" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="kscope" />
   <project path="packages/apps/Music" name="android_packages_apps_Music" remote="kscope" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="kscope" />
@@ -154,6 +159,7 @@
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="kscope" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="kscope" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="kscope" />
+  <project path="packages/apps/Traceur" name="android_packages_apps_Traceur" remote="kscope" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="kscope" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="kscope" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="kscope" />
@@ -172,6 +178,7 @@
 
   <!-- system -->
   <project path="system/bt" name="android_system_bt" remote="kscope" />
+  <project path="system/ca-certificates" name="android_system_ca-certificates" remote="kscope" />
   <project path="system/core" name="android_system_core" remote="kscope" />
   <project path="system/libziparchive" name="android_system_libziparchive" remote="kscope" />
   <project path="system/media" name="android_system_media" remote="kscope" />

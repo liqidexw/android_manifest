@@ -58,10 +58,13 @@
   <remove-project name="device/ti/beagle-x15" />
 
   <!-- external -->
+  <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/angle" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/expat" />
+  <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/mksh" />
@@ -71,6 +74,7 @@
   <!-- frameworks -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/minikin" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/proto_logging" />
@@ -99,6 +103,7 @@
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Nfc" />
@@ -106,6 +111,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/Traceur" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/Permission" />
@@ -120,6 +126,7 @@
 
   <!-- system -->
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/ca-certificates" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/media" />
