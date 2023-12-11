@@ -72,6 +72,7 @@
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/external/webp" />
   <remove-project name="platform/external/libxml2" />
+  <remove-project name="platform/external/libvpx" />
   
   <!-- frameworks -->
   <remove-project name="platform/frameworks/av" />
