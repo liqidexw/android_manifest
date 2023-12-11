@@ -79,6 +79,7 @@
   <project path="external/zlib-ng" name="android_external_zlib-ng" remote="kscope" />
   <project path="external/webp" name="android_external_webp" remote="liqidexw" />
   <project path="external/libxml2" name="android_external_libxml2" remote="liqidexw" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="liqidexw" />
   
   <!-- frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="kscope" />
