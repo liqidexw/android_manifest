@@ -87,7 +87,8 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="kscope" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="kscope" />
   <project path="frameworks/proto_logging" name="android_frameworks_proto_logging" remote="kscope" />
-
+  <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="liqidexw" />
+  
   <!-- hardware -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="kscope" revision="sunflowerleaf-caf" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="kscope" >
