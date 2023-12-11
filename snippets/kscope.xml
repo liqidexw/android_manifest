@@ -14,7 +14,11 @@
            fetch="https://github.com/Project-Kaleidoscope"
            review="https://review.kaleidoscope.ink/"
            revision="refs/heads/sunflowerleaf" />
-
+  
+  <remote  name="liqidexw"
+           fetch="https://github.com/liqidexw"
+           revision="refs/heads/sunflowerleaf" />
+  
   <remote  name="kscope-devices"
            fetch="https://github.com/Kscope-Devices"
            revision="refs/heads/sunflowerleaf" />
@@ -73,6 +77,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="kscope" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/zlib-ng" name="android_external_zlib-ng" remote="kscope" />
+  <project path="external/webp" name="android_external_webp" remote="liqidexw" />
 
   <!-- frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="kscope" />
