@@ -122,7 +122,9 @@
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
-
+  <remove-project name="platform/packages/modules/DnsResolver" />
+  <remove-project name="platform/packages/modules/StatsD" />
+  
   <!-- prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/ndk" />
 
